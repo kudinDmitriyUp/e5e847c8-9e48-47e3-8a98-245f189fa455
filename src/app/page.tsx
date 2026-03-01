@@ -32,6 +32,7 @@ export default function LandingPage() {
           navItems={[
             { name: "About", id: "about" },
             { name: "Features", id: "features" },
+            { name: "Products", id: "products" },
             { name: "Team", id: "team" },
             { name: "Join Us", id: "contact" },
             { name: "FAQ", id: "faq" }
@@ -110,6 +111,35 @@ export default function LandingPage() {
             { text: "Explore More", href: "#team" }
           ]}
           buttonAnimation="slide-up"
+        />
+      </div>
+
+      <div id="products" data-section="products">
+        <ProductCardThree
+          title="Our Product Offerings"
+          description="Explore the tools and resources we've built for our community"
+          tag="Products"
+          tagIcon={Code}
+          tagAnimation="slide-up"
+          products={[
+            {
+              id: "1",              name: "CompClub Platform",              price: "Free",              imageSrc: "http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=1",              imageAlt: "CompClub Platform dashboard",              initialQuantity: 1
+            },
+            {
+              id: "2",              name: "Code Learning Kit",              price: "$49",              imageSrc: "http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=2",              imageAlt: "Code Learning Kit",              initialQuantity: 1
+            },
+            {
+              id: "3",              name: "Hackathon Toolkit",              price: "$29",              imageSrc: "http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=3",              imageAlt: "Hackathon Toolkit",              initialQuantity: 1
+            },
+            {
+              id: "4",              name: "Mentorship Program",              price: "$99",              imageSrc: "http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=4",              imageAlt: "Mentorship Program",              initialQuantity: 1
+            }
+          ]}
+          textboxLayout="default"
+          animationType="slide-up"
+          useInvertedBackground={false}
+          gridVariant="four-items-2x2-equal-grid"
+          carouselMode="buttons"
         />
       </div>
 
@@ -265,7 +295,8 @@ export default function LandingPage() {
               items: [
                 { label: "About", href: "#about" },
                 { label: "Team", href: "#team" },
-                { label: "Features", href: "#features" }
+                { label: "Features", href: "#features" },
+                { label: "Products", href: "#products" }
               ]
             },
             {
