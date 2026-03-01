@@ -50,7 +50,7 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           background={{ variant: "sparkles-gradient" }}
-          imageSrc="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80&_wi=1"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AJb0zJP2EWyuYlH5wmRP5jjTA5/uploaded-1772386907824-cil43xnf.jpg"
           imageAlt="Computer workstation with development setup"
           mediaAnimation="slide-up"
           frameStyle="card"
