@@ -50,7 +50,7 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           background={{ variant: "sparkles-gradient" }}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AJb0zJP2EWyuYlH5wmRP5jjTA5/uploaded-1772384372359-ap8t998v.jpg"
+          imageSrc="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80"
           imageAlt="Computer workstation with development setup"
           mediaAnimation="slide-up"
           frameStyle="card"
@@ -68,7 +68,7 @@ export default function LandingPage() {
             { value: "200+", title: "Active Members" },
             { value: "50+", title: "Projects Completed" }
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=1"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80"
           imageAlt="Team collaborating on coding project"
           mediaAnimation="slide-up"
           metricsAnimation="slide-up"
@@ -87,19 +87,19 @@ export default function LandingPage() {
             {
               id: 1,
               title: "Weekly Coding Workshops",              description: "Learn from industry professionals through hands-on workshops covering web development, mobile apps, data science, and more.",              phoneOne: {
-                imageSrc: "http://img.b2bpic.net/free-photo/typing-keyboard-business-people-manager-working-their-new-project-classroom_146671-16320.jpg?_wi=1"
+                imageSrc: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80"
               },
               phoneTwo: {
-                imageSrc: "http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=2"
+                imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80"
               }
             },
             {
               id: 2,
               title: "Hackathons & Competitions",              description: "Compete with peers in exciting hackathons, coding challenges, and tech competitions. Win prizes and showcase your skills.",              phoneOne: {
-                imageSrc: "http://img.b2bpic.net/free-photo/typing-keyboard-business-people-manager-working-their-new-project-classroom_146671-16320.jpg?_wi=2"
+                imageSrc: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80"
               },
               phoneTwo: {
-                imageSrc: "http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=3"
+                imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80"
               }
             }
           ]}
@@ -120,22 +120,22 @@ export default function LandingPage() {
           <p className="text-center mb-12">Explore the tools and resources we've built for our community</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto px-6">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <img src="http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=1" alt="CompClub Platform dashboard" className="w-full h-48 object-cover rounded mb-4" />
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80" alt="CompClub Platform dashboard" className="w-full h-48 object-cover rounded mb-4" />
               <h3 className="text-xl font-semibold mb-2">CompClub Platform</h3>
               <p className="text-lg font-bold text-green-600">Free</p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
-              <img src="http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=2" alt="Code Learning Kit" className="w-full h-48 object-cover rounded mb-4" />
+              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&q=80" alt="Code Learning Kit" className="w-full h-48 object-cover rounded mb-4" />
               <h3 className="text-xl font-semibold mb-2">Code Learning Kit</h3>
               <p className="text-lg font-bold text-green-600">$49</p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
-              <img src="http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=3" alt="Hackathon Toolkit" className="w-full h-48 object-cover rounded mb-4" />
+              <img src="https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=400&q=80" alt="Hackathon Toolkit" className="w-full h-48 object-cover rounded mb-4" />
               <h3 className="text-xl font-semibold mb-2">Hackathon Toolkit</h3>
               <p className="text-lg font-bold text-green-600">$29</p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
-              <img src="http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=4" alt="Mentorship Program" className="w-full h-48 object-cover rounded mb-4" />
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80" alt="Mentorship Program" className="w-full h-48 object-cover rounded mb-4" />
               <h3 className="text-xl font-semibold mb-2">Mentorship Program</h3>
               <p className="text-lg font-bold text-green-600">$99</p>
             </div>
@@ -187,25 +187,25 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           members={[
             {
-              id: "1",              name: "Alex Chen",              role: "Club President",              description: "Full-stack developer passionate about mentoring. Leads strategic initiatives and oversees all club operations.",              imageSrc: "http://img.b2bpic.net/free-photo/happy-businessman-smiling-camera_1163-4660.jpg?_wi=1",              imageAlt: "Alex Chen, Club President",              socialLinks: [
+              id: "1",              name: "Alex Chen",              role: "Club President",              description: "Full-stack developer passionate about mentoring. Leads strategic initiatives and oversees all club operations.",              imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",              imageAlt: "Alex Chen, Club President",              socialLinks: [
                 { icon: Github, url: "https://github.com" },
                 { icon: Linkedin, url: "https://linkedin.com" }
               ]
             },
             {
-              id: "2",              name: "Maya Patel",              role: "Vice President",              description: "Data science enthusiast focused on community engagement. Organizes workshops and social events.",              imageSrc: "http://img.b2bpic.net/free-photo/happy-businessman-smiling-camera_1163-4660.jpg?_wi=2",              imageAlt: "Maya Patel, Vice President",              socialLinks: [
+              id: "2",              name: "Maya Patel",              role: "Vice President",              description: "Data science enthusiast focused on community engagement. Organizes workshops and social events.",              imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",              imageAlt: "Maya Patel, Vice President",              socialLinks: [
                 { icon: Github, url: "https://github.com" },
                 { icon: Twitter, url: "https://twitter.com" }
               ]
             },
             {
-              id: "3",              name: "Jordan Lee",              role: "Event Coordinator",              description: "Creative problem-solver organizing hackathons and competitions. Ensures memorable experiences for all members.",              imageSrc: "http://img.b2bpic.net/free-photo/happy-businessman-smiling-camera_1163-4660.jpg?_wi=3",              imageAlt: "Jordan Lee, Event Coordinator",              socialLinks: [
+              id: "3",              name: "Jordan Lee",              role: "Event Coordinator",              description: "Creative problem-solver organizing hackathons and competitions. Ensures memorable experiences for all members.",              imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",              imageAlt: "Jordan Lee, Event Coordinator",              socialLinks: [
                 { icon: Linkedin, url: "https://linkedin.com" },
                 { icon: Globe, url: "https://example.com" }
               ]
             },
             {
-              id: "4",              name: "Sam Torres",              role: "Tech Lead",              description: "Backend expert driving our technical infrastructure. Mentors developers and manages projects.",              imageSrc: "http://img.b2bpic.net/free-photo/happy-businessman-smiling-camera_1163-4660.jpg?_wi=4",              imageAlt: "Sam Torres, Tech Lead",              socialLinks: [
+              id: "4",              name: "Sam Torres",              role: "Tech Lead",              description: "Backend expert driving our technical infrastructure. Mentors developers and manages projects.",              imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",              imageAlt: "Sam Torres, Tech Lead",              socialLinks: [
                 { icon: Github, url: "https://github.com" },
                 { icon: Linkedin, url: "https://linkedin.com" }
               ]
@@ -231,22 +231,22 @@ export default function LandingPage() {
           animationType="slide-up"
           testimonials={[
             {
-              id: "1",              name: "Sarah Johnson",              handle: "@sarah_codes",              testimonial: "Joining the computer club transformed my coding skills. The mentorship and collaborative projects gave me real-world experience I couldn't get elsewhere.",              imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-people-avatar-collection_23-2148074529.jpg?_wi=1",              imageAlt: "Sarah Johnson"
+              id: "1",              name: "Sarah Johnson",              handle: "@sarah_codes",              testimonial: "Joining the computer club transformed my coding skills. The mentorship and collaborative projects gave me real-world experience I couldn't get elsewhere.",              imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",              imageAlt: "Sarah Johnson"
             },
             {
-              id: "2",              name: "Michael Rodriguez",              handle: "@mrodriguez_dev",              testimonial: "The hackathons organized by this club are incredible. I've built my portfolio, made lasting friendships, and gained confidence in my abilities.",              imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-people-avatar-collection_23-2148074529.jpg?_wi=2",              imageAlt: "Michael Rodriguez"
+              id: "2",              name: "Michael Rodriguez",              handle: "@mrodriguez_dev",              testimonial: "The hackathons organized by this club are incredible. I've built my portfolio, made lasting friendships, and gained confidence in my abilities.",              imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",              imageAlt: "Michael Rodriguez"
             },
             {
-              id: "3",              name: "Emily Wang",              handle: "@emily_codes",              testimonial: "As someone new to programming, the welcoming community and diverse skill levels made it easy to learn. The workshops are top-notch!",              imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-people-avatar-collection_23-2148074529.jpg?_wi=3",              imageAlt: "Emily Wang"
+              id: "3",              name: "Emily Wang",              handle: "@emily_codes",              testimonial: "As someone new to programming, the welcoming community and diverse skill levels made it easy to learn. The workshops are top-notch!",              imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",              imageAlt: "Emily Wang"
             },
             {
-              id: "4",              name: "David Kim",              handle: "@davidkim_tech",              testimonial: "The networking opportunities at club events led to internship offers. This community opens doors and builds connections that last.",              imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-people-avatar-collection_23-2148074529.jpg?_wi=4",              imageAlt: "David Kim"
+              id: "4",              name: "David Kim",              handle: "@davidkim_tech",              testimonial: "The networking opportunities at club events led to internship offers. This community opens doors and builds connections that last.",              imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",              imageAlt: "David Kim"
             },
             {
-              id: "5",              name: "Jessica Lopez",              handle: "@jess_develops",              testimonial: "Best decision I made was joining CompClub. The supportive environment and quality projects have accelerated my career growth significantly.",              imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-people-avatar-collection_23-2148074529.jpg?_wi=5",              imageAlt: "Jessica Lopez"
+              id: "5",              name: "Jessica Lopez",              handle: "@jess_develops",              testimonial: "Best decision I made was joining CompClub. The supportive environment and quality projects have accelerated my career growth significantly.",              imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",              imageAlt: "Jessica Lopez"
             },
             {
-              id: "6",              name: "Alex Thompson",              handle: "@alexthompson99",              testimonial: "Outstanding club with passionate members and leaders. We celebrate wins together, learn from failures, and always push each other to be better.",              imageSrc: "http://img.b2bpic.net/free-vector/hand-drawn-people-avatar-collection_23-2148074529.jpg?_wi=6",              imageAlt: "Alex Thompson"
+              id: "6",              name: "Alex Thompson",              handle: "@alexthompson99",              testimonial: "Outstanding club with passionate members and leaders. We celebrate wins together, learn from failures, and always push each other to be better.",              imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",              imageAlt: "Alex Thompson"
             }
           ]}
           speed={40}
