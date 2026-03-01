@@ -50,7 +50,7 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           background={{ variant: "sparkles-gradient" }}
-          imageSrc="http://img.b2bpic.net/free-photo/binary-code-digits-technology-software-concept_53876-120040.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AJb0zJP2EWyuYlH5wmRP5jjTA5/uploaded-1772384372359-ap8t998v.jpg"
           imageAlt="Computer workstation with development setup"
           mediaAnimation="slide-up"
           frameStyle="card"
