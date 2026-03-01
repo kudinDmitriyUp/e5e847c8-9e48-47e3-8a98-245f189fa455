@@ -2,23 +2,23 @@
   /* Base units */
   /* --vw is set by ThemeProvider */
 
-  /* --background: #010912;;;
-  --card: #152840;;;
-  --foreground: #005eea;;;
-  --primary-cta: #003362;;;
-  --secondary-cta: #0e1a29;;;
-  --accent: #3f5c79;;;
-  --background-accent: #004a93;;; */
+  /* --background: #ffee00;;;;
+  --card: #ff0900;;;;
+  --foreground: #00fff4;;;;
+  --primary-cta: #003362;;;;
+  --secondary-cta: #a9ffab;;;;
+  --accent: #ff0000;;;;
+  --background-accent: #239400;;;; */
 
-  --background: #010912;;;
-  --card: #152840;;;
-  --foreground: #005eea;;;
-  --primary-cta: #003362;;;
-  --primary-cta-text: #ff00ff;;;
-  --secondary-cta: #0e1a29;;;
-  --secondary-cta-text: #251a0c;;;
-  --accent: #3f5c79;;;
-  --background-accent: #004a93;;;
+  --background: #ffee00;;;;
+  --card: #ff0900;;;;
+  --foreground: #00fff4;;;;
+  --primary-cta: #003362;;;;
+  --primary-cta-text: #ff00ff;;;;
+  --secondary-cta: #a9ffab;;;;
+  --secondary-cta-text: #ff9100;;;;
+  --accent: #ff0000;;;;
+  --background-accent: #239400;;;;
 
   /* text sizing - set by ThemeProvider */
   /* --text-2xs: clamp(0.465rem, 0.62vw, 0.62rem);
