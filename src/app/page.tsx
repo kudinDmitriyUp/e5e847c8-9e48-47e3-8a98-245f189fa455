@@ -115,32 +115,32 @@ export default function LandingPage() {
       </div>
 
       <div id="products" data-section="products">
-        <ProductCardThree
-          title="Our Product Offerings"
-          description="Explore the tools and resources we've built for our community"
-          tag="Products"
-          tagIcon={Code}
-          tagAnimation="slide-up"
-          products={[
-            {
-              id: "1",              name: "CompClub Platform",              price: "Free",              imageSrc: "http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=1",              imageAlt: "CompClub Platform dashboard",              initialQuantity: 1
-            },
-            {
-              id: "2",              name: "Code Learning Kit",              price: "$49",              imageSrc: "http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=2",              imageAlt: "Code Learning Kit",              initialQuantity: 1
-            },
-            {
-              id: "3",              name: "Hackathon Toolkit",              price: "$29",              imageSrc: "http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=3",              imageAlt: "Hackathon Toolkit",              initialQuantity: 1
-            },
-            {
-              id: "4",              name: "Mentorship Program",              price: "$99",              imageSrc: "http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=4",              imageAlt: "Mentorship Program",              initialQuantity: 1
-            }
-          ]}
-          textboxLayout="default"
-          animationType="slide-up"
-          useInvertedBackground={false}
-          gridVariant="four-items-2x2-equal-grid"
-          carouselMode="buttons"
-        />
+        <div className="py-16">
+          <h2 className="text-3xl font-bold text-center mb-4">Our Product Offerings</h2>
+          <p className="text-center mb-12">Explore the tools and resources we've built for our community</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto px-6">
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <img src="http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=1" alt="CompClub Platform dashboard" className="w-full h-48 object-cover rounded mb-4" />
+              <h3 className="text-xl font-semibold mb-2">CompClub Platform</h3>
+              <p className="text-lg font-bold text-green-600">Free</p>
+            </div>
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <img src="http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=2" alt="Code Learning Kit" className="w-full h-48 object-cover rounded mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Code Learning Kit</h3>
+              <p className="text-lg font-bold text-green-600">$49</p>
+            </div>
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <img src="http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=3" alt="Hackathon Toolkit" className="w-full h-48 object-cover rounded mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Hackathon Toolkit</h3>
+              <p className="text-lg font-bold text-green-600">$29</p>
+            </div>
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <img src="http://img.b2bpic.net/free-photo/sales-analysis_1098-14925.jpg?_wi=4" alt="Mentorship Program" className="w-full h-48 object-cover rounded mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Mentorship Program</h3>
+              <p className="text-lg font-bold text-green-600">$99</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="metrics" data-section="metrics">
