@@ -1,7 +1,7 @@
 "use client";
 
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
+import HeroLogoBillboard from '@/components/sections/hero/HeroLogoBillboard';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
@@ -40,29 +40,19 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroSplitDualMedia
-          title="Connect. Code. Create. Together."
+        <HeroLogoBillboard
+          logoText="Connect. Code. Create."
           description="Join our thriving computer club where students collaborate on innovative projects, sharpen their coding skills, and build lasting connections with fellow tech enthusiasts."
-          tag="Welcome to CompClub"
-          tagIcon={Sparkles}
-          tagAnimation="slide-up"
-          background={{ variant: "sparkles-gradient" }}
           buttons={[
             { text: "Join Our Club", href: "#contact" },
             { text: "Learn More", href: "#about" }
           ]}
           buttonAnimation="slide-up"
-          mediaItems={[
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/binary-code-digits-technology-software-concept_53876-120040.jpg",              imageAlt: "Computer workstation with development setup"
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-it-professional-using-tablet-building-ai-algorithms_482257-92639.jpg",              imageAlt: "Collaborative coding session"
-            }
-          ]}
+          background={{ variant: "sparkles-gradient" }}
+          imageSrc="http://img.b2bpic.net/free-photo/binary-code-digits-technology-software-concept_53876-120040.jpg"
+          imageAlt="Computer workstation with development setup"
           mediaAnimation="slide-up"
-          rating={5}
-          ratingText="Trusted by 200+ members"
+          frameStyle="card"
         />
       </div>
 
