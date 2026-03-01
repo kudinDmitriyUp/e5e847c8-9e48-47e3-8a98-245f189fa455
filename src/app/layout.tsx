@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter_Tight } from "next/font/google";
+import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 
-const interTight = Inter_Tight({
-  variable: "--font-inter-tight",  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+const ibmPlexSans = IBM_Plex_Sans({
+  variable: "--font-ibm-plex-sans",  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
         <body
-          className={`${interTight.variable} antialiased`}
+          className={`${ibmPlexSans.variable} antialiased`}
         >
           <Tag />
           {children}
