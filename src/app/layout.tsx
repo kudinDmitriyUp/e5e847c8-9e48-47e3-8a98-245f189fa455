@@ -15,7 +15,8 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "CompClub - Where Tech Enthusiasts Connect",    description: "Join our vibrant community of 200+ members. Learn, code, and grow together.",    type: "website",    siteName: "CompClub",    url: "https://compclub.com"},
+    title: "CompClub - Where Tech Enthusiasts Connect",    description: "Join our vibrant community of 200+ members. Learn, code, and grow together.",    type: "website",    siteName: "CompClub",    url: "https://compclub.com"
+  },
 };
 
 export default function RootLayout({
